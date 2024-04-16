@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background-color: #191919;
+    background-image: url(little_women-778503384-mmed.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    background-color: #292b27; opacity: 85%;
+    gap: 1em;
+    padding: 1em;
+    font-size: 17px;
+    height: 5em;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+
+main {
+    background-color: #0c0c0c42;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #0c0c0c84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+
+.content{
+    color: rgb(194, 194, 194);
+    background-color: #00000054;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+    margin: 5%;
+    padding: 3%;
+    gap: 10px;
+}
+
+.movie_logo {    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botones2{
+    background-color: white;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size-adjust: auto;
+    border-radius: 25px;
+    border: black;
+    padding: auto;
+    text-align: center;
+}
+
+.botones3{
+        background-color: white;
+        color: black;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        size-adjust: auto;
+        border-radius: 25px;
+        border: black;
+        padding: auto;
+        margin-top: 5px;
+        text-align: center;       
+}
+
+.btn-play{
+    background-color: white;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 10px;
+    border: black;
+}
+
+.Pelicula{
+    margin: 10px 0;
+}
+
+.info{
+    padding: 2%
+}
+
+#logo{
+    margin-top: -7%;
+    width: 40%;
+}
+
+#video{
+    width: 80%;
+    margin-top: -3%;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative; 
+}
+
+.dropdown_content {
+    display: none;
+}
+
+.dropdown:hover .dropdown_content {
+display: block;
+position: absolute;
+margin-left: -50px;
+background-color: #2b2727;
+width: max-content;
+}
+
+ol {
+    padding: 5%;
+}
+
+a :hover {
+    background-color: rgb(62, 65, 65);
+}
+
+h3 {
+    text-shadow: #000000 ;  
+}
